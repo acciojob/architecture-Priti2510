@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+body {
+	width : 1100px;
+}
+
+.myTable {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .myTable td, .myTable th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    .myTable th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #f1f1f1;
+    }
